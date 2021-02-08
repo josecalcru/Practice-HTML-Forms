@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>4Geeks Academy</title>
-</head>
-<body>
-<form>
-<!-- your code here -->
-</form>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>4Geeks Academy</title>
+	</head>
+	<body>
+		<form>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Value</th>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>
+						<input type="radio" name="genre" /> <br />
+						<input type="radio" name="genre" />
+					</td>
+				</tr>
+				<tr>
+					<td>Eye color</td>
+					<td>
+						<select name="Eye color" id="eyes">
+							<option value="green">Green</option>
+							<option value="red">Blue</option>
+							<option value="blue">Red</option>
+							<option value="brown">Yellow</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Check all that apply</td>
+					<td>
+						<checkbox name="Eye color" id="eyes">
+							<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+							<label for="vehicle1"> I have a bike</label><br />
+							<input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+							<label for="vehicle2"> I have a car</label><br />
+						</checkbox>
+					</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td>Describe your athletic ability</td>
+				</tr>
+				<tr>
+					<td><textarea name="athletic-ability" rows="5" cols="45" id="">ff</textarea></td>
+				</tr>
+			</table>
+		</form>
+	</body>
 </html>
